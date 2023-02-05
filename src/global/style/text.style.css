@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.f-heading {
+  font-family: "Comfortaa", var(--bs-body-font-family);
+}
+
+.f-body {
+  font-family: "Poppins", var(--bs-body-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+  font-family: "Comfortaa", var(--bs-body-font-family);
+}
+
+.text-gradient {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: var(--bs-gradient);
+}
+
+.text-outline-primary {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--bs-primary);
+}
+
+.text-outline-secondary {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--bs-secondary);
+}
+
+.text-loose {
+  letter-spacing: 0.32rem;
+}

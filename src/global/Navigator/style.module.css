@@ -1,0 +1,23 @@
+.navbar {
+  --bs-navbar-toggler-focus-width: 0;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 0 0 4px 0 !important;
+}
+
+.nav-link ~ :global(.dropdown-menu .list-group-item) {
+  --bs-list-group-bg: var(--bs-gray-900);
+  --bs-list-group-color: var(--bs-white);
+  --bs-list-group-active-color: var(--bs-gray-900);
+  --bs-list-group-active-bg: var(--bs-white);
+  --bs-list-group-active-border-color: var(--bs-white);
+  --bs-dropdown-link-active-bg: var(--bs-gray-200);
+  --bs-dropdown-link-active-color: var(--bs-gray-900);
+}
+
+.navbar-toggler {
+  display: block !important;
+  border: none;
+}

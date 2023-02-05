@@ -1,0 +1,36 @@
+
+.card {
+  height: 20rem;
+}
+
+.card .description {
+  transition: 0.4s ease-out;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.card:hover .description {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.card .icon {
+  transition: 0.4s ease-out;
+  transition-delay: 0.24s;
+  transform: translateX(-80%);
+  opacity: 0;
+}
+
+.card:hover .icon {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon:hover {
+  color: var(--bs-primary) !important;
+}

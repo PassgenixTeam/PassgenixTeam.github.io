@@ -1,0 +1,17 @@
+.header-title h1 {
+  font-size: 4rem;
+}
+
+.header-title button {
+  width: 14rem;
+}
+
+.experiences h1 {
+  font-family: var(--bs-body-font-family);
+  font-weight: 100;
+  font-size: 4.2rem;
+}
+
+.experiences > div {
+  width: 10rem;
+}
